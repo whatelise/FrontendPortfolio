@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap");
+
+body {
+  background-color: #fff7f3;
+  color: #d4534d;
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  justify-content: center;
+  height: 85vh;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0;
+  padding: 0;
+  line-height: 120px;
+}
+/* h1:hover {
+  -webkit-text-stroke: 2px #d4534d;
+  color: #fff7f3;
+} */
+#elise {
+  animation: invert 6s infinite ease;
+}
+#mccreary {
+  animation: invert 6s infinite ease;
+  animation-delay: 3s;
+  -webkit-text-stroke: 2px #d4534d;
+  color: #fff7f3;
+}
+@keyframes invert {
+  0% {
+    -webkit-text-stroke: 2px #d4534d;
+    color: #fff7f3;
+  }
+  5% {
+    -webkit-text-stroke: 2px #d4534d;
+    color: #d4534d;
+  }
+  50% {
+    -webkit-text-stroke: 2px #d4534d;
+    color: #d4534d;
+  }
+  55% {
+    -webkit-text-stroke: 2px #d4534d;
+    color: #fff7f3;
+  }
+  100% {
+    -webkit-text-stroke: 2px #d4534d;
+    color: #fff7f3;
+  }
+}
+
+.topleft {
+  padding-top: 30vh;
+}
+.name {
+  padding-top: 25vh;
+  margin-right: 6vw;
+}
+ul,
+li {
+  list-style: none;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 50px;
+  margin-left: 3vw;
+}
+.bottom {
+  margin-left: 40px;
+  width: 96vw;
+  overflow: hidden;
+}
+.scroll {
+  height: 4em;
+  width: 4em;
+}
+
+h2 {
+  font-size: 40px;
+  width: 18vw;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+#year {
+  margin-top: 0;
+  margin-right: 5vw;
+}
+#projects {
+  margin-top: 100px;
+}
+.project {
+  height: 70vh;
+
+  align-items: center;
+}
+.info {
+  margin-left: 30px;
+}
+h3 {
+  font-size: 70px;
+  font-weight: 200;
+  margin-top: 0;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.projimg {
+  width: 46em;
+  margin-right: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 12px 12px 29px #555;
+  box-shadow: 12px 12px 29px #555;
+}
+p {
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #d4534d;
+}
+a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.aboutmep {
+  width: 600px;
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform, opacity;
+}
+
+#contact {
+  height: 30vh;
+}
+#about {
+  height: 30vh;
+  margin-bottom: 200px;
+}
